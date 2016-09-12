@@ -49,10 +49,22 @@ else:
 In the above example the `if` statement is checked and if it is not true than the program executes the `else` statement.
 
 
-  Functions - anything we want
+## Functions
 
+Functions are blocks of code that can be reused to preform the same task over and over again.
+
+For example:
 ```
-git clone _____
-git add
-git push
-````
+def my_function(a):
+  return a + 10
+```
+This function accepts an integer `a` and returns the sum of a + 10.
+This block of code could be used over and over in many different scenarios.
+Instead of writing a separate line every time I need to add 10 I use this function.
+
+Let's look at how it's written.
+
+The first part `def` stands for define. This defines the function which you then give a name.
+In the example above the name is `my_function`.
+Then a set of parentheses with any input variables inside, followed by a colon.
+Then you can write the code for the function below this line and indented.
