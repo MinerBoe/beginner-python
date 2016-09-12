@@ -20,3 +20,16 @@ Conditionals allow an action to be preformed only when specific conditions are m
 Expressions are the conditions that are passed into a conditional statement. These are like `and`, `or`, and `not`.
 
 Let's look at an example.
+Variables
+  assign, use, types
+
+  Conditionals
+  Expressions, branching
+
+  Functions - anything we want
+
+```
+git clone _____
+git add
+git push
+````
