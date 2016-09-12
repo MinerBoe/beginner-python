@@ -1,21 +1,15 @@
 # beginner-python
 
-## Grocery List
+## Variables
+Variables are phrases that store some other data. For example:
+`my_variable == 1`
 
-* Milk
-* Bread
-* Eggs
-* Cheese
-* Butter
-
-This is `a variable name`.
-
+There are different types of variables. Two of these are integers and strings.
 ```
-$ python run.py
+int == 10
+str == "Hello"
 ```
+Integers store numbers and strings store text.
 
-```
-def my_function(a):
-  return a + 10
-
-```
+To assign a value to a variable use the name and == and then the value.
+Like this `variable == value`
