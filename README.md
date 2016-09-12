@@ -8,8 +8,9 @@ There are different types of variables. Two of these are integers and strings.
 ```
 int = 10
 str = "Hello"
+boolean = True
 ```
-Integers store numbers and strings store text.
+Integers store numbers and strings store text. Booleans are set to either `True` or `False`.
 
 To assign a value to a variable use the name and = and then the value.
 Like this `variable = value`
@@ -20,11 +21,33 @@ Conditionals allow an action to be preformed only when specific conditions are m
 Expressions are the conditions that are passed into a conditional statement. These are like `and`, `or`, and `not`.
 
 Let's look at an example.
-Variables
-  assign, use, types
+```
+if x > 0 and y > 0:
+  # do something
+elif x > 0 or y > 0:
+  # do something else
+```
+The first `if` statement checks if two values are greater than 0.
+The `elif` checks the values before moving on to the next if statement.
 
-  Conditionals
-  Expressions, branching
+You can also check if a value is set to `True` or `False`
+
+```
+if boolean:
+  # code: this executes when it is True
+```
+
+Branching is done like below.
+
+```
+if x > 0:
+  print "x is greater than 0"
+else:
+  print "x is not greater than 0"
+```
+
+In the above example the `if` statement is checked and if it is not true than the program executes the `else` statement.
+
 
   Functions - anything we want
 
